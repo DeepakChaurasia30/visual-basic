@@ -1,0 +1,148 @@
+[Root]
+Most Recent Package=Setup_Package
+
+
+[Package|Setup_Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\Microsoft Visual Studio\vb6\xtream_setup
+
+[Package|Setup_Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup_Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup_Package|Files Found]
+
+[Package|Setup_Package|Files Released]
+CRAXDRT.DLL=
+PG32CONV.DLL=
+SSCSDK80.DLL=
+
+[Package|Setup_Package|Missing Dependency Information]
+C:\Program Files (x86)\Seagate Software\Viewers\ActiveXViewer\xqviewer.dll=
+C:\Program Files (x86)\Common Files\Microsoft Shared\DAO\dao360.dll=
+C:\Program Files (x86)\Common Files\System\ado\msado21.tlb=
+C:\Windows\Crystal\p2soledb.dll=
+
+[Package|Setup_Package|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\MSCOMCTL.OCX=
+C:\Windows\SysWOW64\MSCAL.OCX=
+C:\Windows\SysWOW64\MSSTDFMT.DLL=
+C:\Windows\SysWOW64\comdlg32.ocx=
+C:\Windows\SysWOW64\scrrun.dll=
+
+[Package|Setup_Package|Files Added]
+C:\Windows\Crystal\p2soledb.dll=
+
+[Package|Setup_Package|Files Removed]
+
+[Package|Setup_Package|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+F:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\MSBIND.DLL=Yes
+C:\Windows\SysWOW64\MSSTDFMT.DLL=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado21.tlb=Yes
+C:\Program Files (x86)\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\Program Files (x86)\Seagate Software\Viewers\ActiveXViewer\xqviewer.dll=Yes
+C:\Program Files (x86)\Seagate Software\Report Designer Component\craxddrt.dll=Yes
+C:\Windows\System32\Implode.dll=Yes
+C:\Windows\System32\Crpaig80.dll=Yes
+C:\Windows\System32\msvcrt.dll=Yes
+C:\Windows\System32\mfc42.dll=Yes
+C:\Windows\System32\P2smon.dll=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\MSCOMCT2.OCX=Yes
+C:\Windows\SysWOW64\MSCAL.OCX=Yes
+C:\Windows\SysWOW64\MSCOMM32.OCX=Yes
+C:\Windows\SysWOW64\Crystl32.OCX=Yes
+C:\Windows\SysWOW64\crpe32.dll=Yes
+C:\Windows\SysWOW64\MSCOMCTL.OCX=Yes
+C:\Program Files (x86)\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=Yes
+F:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+F:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+F:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\Microsoft Visual Studio\vb6\xtream\Bill.exe=Yes
+C:\Windows\SysWOW64\scrrun.dll=Yes
+C:\Windows\SysWOW64\comdlg32.ocx=Yes
+C:\Windows\Crystal\p2soledb.dll=Yes
+
+[Package|Setup_Package|Configure Registry Files]
+Applicable=No
+
+[Package|Setup_Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup_Package|Install Locations]
+F:\Microsoft Visual Studio\vb6\xtream\Project1.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+F:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\MSBIND.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\System\ado\msado21.tlb=$(WinSysPath)
+C:\Program Files (x86)\Common Files\Microsoft Shared\DAO\dao360.dll=$(WinSysPath)
+C:\Program Files (x86)\Seagate Software\Viewers\ActiveXViewer\xqviewer.dll=$(WinSysPath)
+C:\Program Files (x86)\Seagate Software\Report Designer Component\craxddrt.dll=$(WinSysPath)
+C:\Windows\System32\Implode.dll=$(AppPath)
+C:\Windows\System32\Crpaig80.dll=$(WinSysPath)
+C:\Windows\System32\msvcrt.dll=$(WinSysPath)
+C:\Windows\System32\mfc42.dll=$(WinSysPath)
+C:\Windows\System32\P2smon.dll=$(WinSysPath)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMCT2.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSCAL.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMM32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\Crystl32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\crpe32.dll=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files (x86)\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=$(WinSysPath)
+F:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+F:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\Microsoft Visual Studio\vb6\xtream\Bill.exe=$(AppPath)
+C:\Windows\SysWOW64\scrrun.dll=$(WinSysPath)
+C:\Windows\SysWOW64\comdlg32.ocx=$(WinSysPath)
+C:\Windows\Crystal\p2soledb.dll=$(WinSysPath)
+
+[Package|Setup_Package|Configure Shared Files]
+Applicable=Yes
+F:\Microsoft Visual Studio\vb6\xtream\Project1.exe=No
+C:\Windows\System32\Implode.dll=No
+F:\Microsoft Visual Studio\vb6\xtream\Bill.exe=No
+
+[Package|Setup_Package|Distribution]
+Type=single
+Size=
+Title=Bill-System
+
+[Package|Setup_Package|Package]
+PackageFolder=F:\Microsoft Visual Studio\vb6\xtream_setup
+ProjectFolder=F:\Microsoft Visual Studio\vb6\xtream
+ServerSideCab=
+File1=F:\Microsoft Visual Studio\vb6\xtream_setup\setup.exe
+File2=F:\Microsoft Visual Studio\vb6\xtream_setup\Setup.Lst
+File3=F:\Microsoft Visual Studio\vb6\xtream_setup\Bill.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Setup_Package|IconGroups]
+Group0=Bill system
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Setup_Package|Bill system]
+Icon1=Project1.exe
+Title1=Bill system
+StartIn1=$(AppPath)
+Key1=Icon1
